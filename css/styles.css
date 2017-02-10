@@ -8,7 +8,7 @@
 }
 
 .parallax-window {
-    min-height: 300px;
+    min-height: 400px;
     background: transparent;
 }
 
@@ -32,6 +32,12 @@
   z-index: -1;
 }
 
+.btn {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  margin-bottom: 10px;
+}
+
 #main {
   margin-top: 10px;
   position: relative;
@@ -40,7 +46,7 @@
 
 #featured {
   background: #fff;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 
 #contact {
@@ -49,8 +55,7 @@
 }
 
 #footer {
-  margin-bottom: 40px;
+  text-align:center;
+  float:none;
+  margin-bottom: 20px;
 }
-
-
-

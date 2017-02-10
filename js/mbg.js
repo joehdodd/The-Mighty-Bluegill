@@ -22,5 +22,3 @@
             $(this).removeClass("floating-label-form-group-with-focus");
         });
     });*/
-
-
